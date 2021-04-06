@@ -1,0 +1,71 @@
+/**index.wxss**/
+.container {
+  width: 100%;
+  height: 1500rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding:0;
+  background-color:#DDDDDD;
+}
+.tel{
+  display: block;
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  margin-left: 150rpx;
+  margin-top: -100rpx;
+}
+#header{
+  width: 100%;
+  height: 400rpx;
+  background-color: #040;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+#content{
+  width: 100%;
+  height: 1200rpx;
+  background-color: #040e18;
+}
+.bjimg{
+  display: block;
+  width: 750rpx;
+  height: 500rpx;
+}
+.figure{
+  display: block;
+  width:  300rpx;
+  height: 300rpx;
+  position: absolute;
+  margin-top: 70rpx;
+  margin-left: -300rpx;
+}
+.textSelection{
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  flex-direction: flex-start;
+  padding: 50rpx;
+}
+.contentHeaderImg{
+  display: block;
+  width: 100%;
+  height: 100rpx;
+}
+
+text{
+  display: block;
+  color: white;
+  margin: 10rpx;
+  font-size: 16px;
+}
+swiper-item, swiper, .sheet{
+  width: 100%;
+  height: 100%
+}

@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<view class="container">
+  <view id="header">
+    <image class="bgimg" mode="aspectFill" src="./img/bk-black.jpg"></image>
+    <image class="figure" mode="aspectFit" src="./img/touxiang.jfif"></image>
+    <view bindtap="tel">
+      <image class="tel" mode="aspectFit" src="./img/telephone.png"></image>
+    </view>
+  </view>
+  <view id="content">
+    <swiper>
+      <swiper-item>
+        <view class="sheet">
+        <view class="contentHeader">
+        <image class="contentHeaderImg" src="./img/1.png"></image>
+        </view>
+        <view class="textSelection">
+          <text>小天</text>
+          <text>男  |  21岁（1999年11月）</text>
+          <text>干饭人-，0.0 </text>
+          <text>18年读书经验</text>
+          <text>5+year work at microsolft</text>
+          <text>play LOL and DNF</text>
+          <text>中国电网电信合作对象</text>
+          <text>->1</text>
+          <text>->2</text>
+          <text>->3</text>
+          <text>->4</text>
+          <text>->5</text>
+          <text>Email:88528331@qq.com</text>
+        </view>
+      </view>
+      </swiper-item>
+      <swiper-item>
+        <view class="sheet">
+      <view class="contentHeader">
+        <image class="contentHeaderImg" src="./img/1.png"></image>
+      </view>
+      <view class="textSelection">
+        <text>小天</text>
+        <text>男  |  21岁（1999年11月）</text>
+        <text>干饭人-，0.0 </text>
+        <text>18年读书经验</text>
+        <text>5+year work at microsolft</text>
+        <text>play LOL and DNF</text>
+        <text>中国电网电信合作对象</text>
+        <text>->1</text>
+        <text>->2</text>
+        <text>->3</text>
+        <text>->4</text>
+        <text>->5</text>
+        <text>Email:88528331@qq.com</text>
+      </view>
+    </view>
+      </swiper-item>
+    </swiper>
+    
+  </view>
+</view>
